@@ -10,7 +10,7 @@ body {
   &-1 {
     background-color: black;
     // background-repeat: no-repeat;
-    background-size: 750px;
+    background-size: 190%;
     background-position: center top;
     margin-top: -116px;
     background-image: url('../hero-img.png');
@@ -47,7 +47,7 @@ body {
   &-4 {
     background-color: black;
     background-repeat: no-repeat;
-    background-size: 750px;
+    background-size: 190%;
     background-position: center top;
     margin-top: -116px;
     background-image: url('../hero-img.png');
@@ -70,7 +70,7 @@ body {
   &-5 {
     background-color: black;
     background-repeat: no-repeat;
-    // background-size: 750px;
+    background-size: contain;
     background-position: center top;
     margin-top: -116px;
     background-image: url('../hero-img.png');
@@ -80,7 +80,7 @@ body {
   &-6 {
     background-color: black;
     background-repeat: no-repeat;
-    background-size: 750px;
+    background-size: cover;
     background-position: center top;
     margin-top: -116px;
     background-image: url('../hero-img.png');
