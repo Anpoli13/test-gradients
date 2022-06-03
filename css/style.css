@@ -8,39 +8,26 @@ body {
   border: 2px black solid;
 }
 .box-1 {
-  /* Fallback (could use .jpg/.png alternatively) */
-  background-color: blue;
-  /* SVG fallback for IE 9 (could be data URI, or could use filter) */
-  background-image: url(fallback-gradient.svg);
-  /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
-  background-image: -webkit-gradient(linear, left top, right top, from(blue), to(#f06d06));
-  /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
-  background-image: -webkit-linear-gradient(left, blue, #f06d06);
-  /* Firefox 3.6 - 15 */
-  background-image: -moz-linear-gradient(left, blue, #f06d06);
-  /* Opera 11.1 - 12 */
-  background-image: -o-linear-gradient(left, blue, #f06d06);
-  /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
-  background-image: linear-gradient(to right, blue, #f06d06);
+  background-color: black;
+  background-size: 750px;
+  background-position: center top;
+  margin-top: -116px;
+  background-image: url("../hero-img.png");
+  background-image: linear-gradient(180deg, rgba(111, 9, 213, 0) 30%, #dbcd09 64%), url("../hero-img.png");
 }
 .box-2 {
-  /* Safari 4, Chrome 1-9, iOS 3.2-4.3, Android 2.1-3.0 */
-  background-image: -webkit-gradient(linear, left top, right top, from(#c8c800), to(rgba(240, 107, 6, 0)));
-  /* Safari 5.1, iOS 5.0-6.1, Chrome 10-25, Android 4.0-4.3 */
-  background-image: -webkit-linear-gradient(left, #c8c800, rgba(240, 107, 6, 0));
-  /* Firefox 3.6 - 15 */
-  background-image: -moz-linear-gradient(left, #c8c800, rgba(240, 107, 6, 0));
-  /* Opera 11.1 - 12 */
-  background-image: -o-linear-gradient(left, #c8c800, rgba(240, 107, 6, 0));
-  /* Opera 15+, Chrome 25+, IE 10+, Firefox 16+, Safari 6.1+, iOS 7+, Android 4.4+ */
-  background-image: linear-gradient(to right, #c8c800, rgba(239, 107, 6, 0));
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 750px;
+  background-position: center top;
+  background-image: url("../hero-img.png");
+  background-image: linear-gradient(180deg, rgba(111, 9, 213, 0) 30%, #db3309 64%), url("../hero-img.png");
 }
 .box-3 {
   background-color: black;
   background-image: url("../hero-img.png");
   background-repeat: no-repeat;
   background-size: 750px;
-  background-position: center top;
   margin-top: -116px;
   background-image: -webkit-gradient(180deg, rgba(5, 5, 5, 0) 30%, #050505 64%), url("../hero-img.png");
   background-image: -webkit-linear-gradient(180deg, rgba(5, 5, 5, 0) 30%, #050505 64%), url("../hero-img.png");
@@ -49,6 +36,11 @@ body {
   background-image: linear-gradient(180deg, rgba(5, 5, 5, 0) 30%, #050505 64%), url("../hero-img.png");
 }
 .box-4 {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 750px;
+  background-position: center top;
+  margin-top: -116px;
   background-image: url("../hero-img.png");
   background-size: cover;
   position: relative;
@@ -62,16 +54,24 @@ body {
   bottom: 0;
   left: 0;
   z-index: 1;
-  background-image: linear-gradient(green, rgba(0, 128, 0, 0));
+  background-image: linear-gradient(180deg, rgba(111, 9, 213, 0) 30%, #185904 64%);
 }
 .box-5 {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-top: -116px;
+  background-image: url("../hero-img.png");
+  background-image: linear-gradient(180deg, rgba(111, 9, 213, 0) 30%, #09dbd1 64%), url("../hero-img.png");
+}
+.box-6 {
   background-color: black;
   background-repeat: no-repeat;
   background-size: 750px;
   background-position: center top;
   margin-top: -116px;
   background-image: url("../hero-img.png");
-  background-image: linear-gradient(180deg, rgba(111, 9, 213, 0) 30%, #09dbd1 64%), url("../hero-img.png");
+  background-image: linear-gradient(180deg, rgba(111, 9, 213, 0) 30%, #0c09db 64%), url("../hero-img.png");
 }
 
 /*# sourceMappingURL=style.css.map */
