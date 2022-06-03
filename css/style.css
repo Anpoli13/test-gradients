@@ -38,15 +38,15 @@ body {
 .box-3 {
   background-color: black;
   background-image: url("../hero-img.png");
+  background-repeat: no-repeat;
+  background-size: 750px;
+  background-position: center top;
+  margin-top: -116px;
   background-image: -webkit-gradient(180deg, rgba(5, 5, 5, 0) 30%, #050505 64%), url("../hero-img.png");
   background-image: -webkit-linear-gradient(180deg, rgba(5, 5, 5, 0) 30%, #050505 64%), url("../hero-img.png");
   background-image: -moz-linear-gradient(180deg, rgba(5, 5, 5, 0) 30%, #050505 64%), url("../hero-img.png");
   background-image: -o-linear-gradient(180deg, rgba(5, 5, 5, 0) 30%, #050505 64%), url("../hero-img.png");
   background-image: linear-gradient(180deg, rgba(5, 5, 5, 0) 30%, #050505 64%), url("../hero-img.png");
-  background-repeat: no-repeat;
-  background-size: 750px;
-  background-position: center top;
-  margin-top: -116px;
 }
 .box-4 {
   background-image: url("../hero-img.png");
@@ -66,13 +66,12 @@ body {
 }
 .box-5 {
   background-color: black;
-  background-image: url("../hero-img.png");
-  background-image: linear-gradient(180deg, rgba(111, 9, 213, 0) 30%, #c909db 64%), url("../hero-img.png");
-  background-size: cover;
   background-repeat: no-repeat;
   background-size: 750px;
   background-position: center top;
-  margin-top: -115px;
+  margin-top: -116px;
+  background-image: url("../hero-img.png");
+  background-image: linear-gradient(180deg, rgba(111, 9, 213, 0) 30%, #09dbd1 64%), url("../hero-img.png");
 }
 
 /*# sourceMappingURL=style.css.map */
